@@ -7,4 +7,6 @@ Setting up Restaurant Management and Food Delivery Database Management System:
 3. Run DMDD_DML.sql
 4. Run Encryption.sql
 
-Now, you are free to run stored procedures, view and Tableau dashboards.
+Stored Procedure File:
+
+DMDD_SP.sql
