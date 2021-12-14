@@ -14,18 +14,33 @@
 - 
 - Using Stored Procedures, we can calculate the daily, monthly, half yearly or annual food wastage for the particular restaurant. 
 
+'sp_CalculateAndDisplayFoodWastageByRestaurants'
+
 # Business Use Case #2:  Calculate Order Amount after tips
 
 Stored Procedure provides the provision of manual user input for the tips and adds that amount to the existing sum of individual dishes ordered along with taxes.
+
+'sp_CalculateTotalAmount'
 
 # Business Use Case #3:  Find Top 5 highly rated restaurants in a zip code
 
 - This stored procedure calculates the average rating of a restaurant depending on the food and service rating provided by each customer who has visited the restaurant. Post calculation, it displays the top 5 restaurants in the input zip code.
 
+'TopRestaurantsinAnArea'
+
 # Business Use Case #4:  Fastest Delivery
 
  - This stored procedure calculates the fastest delivery made in the database.
 
+'sp_CalculateFastestDelivery'
+
+# Business Use Case #5:  Delivery Violations
+
+- Late deliveries cause major problems to business and it is essential that they have the option to evaluate and filter any such results.
+
+- The system provides a configurable value (default = 60 minutes) as the threshold for a delivery to be made.
+
+'sp_ListDeliveryViolations'
 
 # Setting up Restaurant Management and Food Delivery Database Management System:
 
